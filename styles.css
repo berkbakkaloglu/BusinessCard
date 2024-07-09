@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 317px;
+    height: 716px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #F5F5F5;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.avatar{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.button-section{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email-btn{
+    padding: 9px 28.5px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    
+
+    
+}
+.envelope{
+   
+    margin-right: 8px;
+}
+
+.linked-btn{
+    padding: 9px 18px;
+    background: #297FE5;
+    border: 1px solid #D1D5DB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    
+}
+.linkedin{
+    color:#ffffff ;
+    background-color:#297FE5 ;
+    margin-right: 8px;
+
+}
+
+.info > h1 {
+    font-size:1.563rem ; 
+    line-height: 30.26px;
+    margin-bottom: 0px;
+}
+.job-desc {
+    font-size:0.8rem ;
+    color : #F47D27;
+    margin-top: 6.19px;
+    margin-bottom: 0;
+    line-height: 15.49px;
+    
+}
+.website {
+    margin-top:8.81px;
+    margin-bottom: 17px;
+    line-height: 15.39px;
+    font-size: 0.64rem;
+    color:#4A4E74
+}
+.about{
+    width: 247px;
+    text-align: left;
+    margin: 25px 39px 0px 35px;
+}
+.about > h1 {
+    font-size: 1rem;
+    line-height: 24px;
+}
+.about > p {
+    font-size:0.64rem ;
+    line-height: 15.36px;
+}
+
+.interest{
+    width: 247px;
+    text-align: left;
+    margin: 0 39px 31px 35px;
+}
+.interest > h1 {
+    font-size: 1rem;
+    line-height: 24px;
+}
+.interest > p {
+    font-size:0.64rem ;
+    line-height: 15.36px;
+
+}
+.footer{
+    width: 317px;
+    height: 64px;
+    background: #D5D4D8;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-icon{
+    width: 25px;
+    height: 25px;
+    color:#918E9B
+}
